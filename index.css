@@ -13,6 +13,7 @@
     height: 22px;
     left: 806px;
     top: 47px;
+    justify-content: flex-end;
 }
 
 nav ul li{
@@ -35,18 +36,32 @@ color: #000000;
 
 .principal-page{
   
-    margin:0 auto;
-    background-image: url("images/principal-page-pic.png");
+    margin:0 ;
+    background-image: url("assets/images/principal-page-pic.png");
     background-position: 50%;
     background-size: cover;
     display: table;
-    height: 100%;
-    width: 100%;
+
+width: 1440px;
+height: 810px;
+left: 0px;
+top: 0px;
 }
 
 .social-media{
-    width: 25px;
+width: 25px;
 height: 267px;
 left: 1365px;
 top: 271px;
+padding: 20px;
+
+}
+
+.principal-page-text-1{
+width: 258px;
+height: 22px;
+left: 122px;
+top: 429px;
+
+
 }
