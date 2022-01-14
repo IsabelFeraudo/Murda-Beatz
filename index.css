@@ -1,0 +1,45 @@
+
+
+.logo{
+    width: 169px;
+    height: 134px;
+    left: 50px;
+    top: 24px;
+    
+   
+}
+.navbar{
+    width: 584px;
+    height: 22px;
+    left: 806px;
+    top: 47px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 12px;
+    float:left;
+
+font-family: Sen;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 80px;
+text-align: right;
+text-transform: uppercase;
+
+color: #000000;
+
+
+}
+
+.principal-page{
+  
+    margin:0 auto;
+    background-image: url("images/principal-page-pic.png");
+    background-position: 50%;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
