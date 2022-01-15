@@ -5,43 +5,58 @@ body{
     margin-left: 0px;
 }
 
-.logo{
+.logo-img {
     width: 169px;
     height: 134px;
     left: 50px;
     top: 24px;
-    margin-right: 1200px;
-    margin-left: 50px;
-    margin-top: -100px;
+   vertical-align: top;
+    
     
    
 }
 
 
-ul li{
+.main-page-nav a{
  
     list-style: none;
     padding: 12px;
     float:right;
 
-font-family: Sen;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 80px;
-text-align: right;
-text-transform: uppercase;
-vertical-align: middle;
-color: #000000;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 80px;
+    text-align: right;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: #000000;
+    text-align: center;
+	text-decoration: none;
+	padding:10px;
+
+	/* Flexbox */
+	flex-grow:1;
 
 
 
 }
 
-.principal-page{
+.container-main-page{
+	width:100%;
+	max-width:1440px;
+	
+
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+
+.main-page{
   
     margin:0 ;
-    background-image: url("assets/images/principal-page-pic.png");
+    background-image: url("assets/images/main-page-pic.png");
     background-position: 0% 0%;
     background-size: cover;
     display: table;
@@ -58,7 +73,7 @@ top: 0px;
 
 }
 
-.principal-page-text{
+.main-page-text{
 width: 258px;
 height: 22px;
 left: 122px;
@@ -68,14 +83,13 @@ margin-left: 150px;
 
 }
 
-.navbar-container{
-  
-align-items:"left";  
-justify-content: flex-end;
-    align-items: left;  
-}
-.navbar{
-    
+.main-page-nav{
+    width:50%;
+	/* Flexbox */
+
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center; 
 }
 
 .btn:hover{
@@ -83,17 +97,29 @@ color:white;
 }
 
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-right: 50px;
+	width:100%;
+	padding:5px;
+
+	/* Flexbox */
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+
+	flex-direction:row;
+	flex-wrap:wrap;
 }
 
-.container-header{
-    display: flex;
-    align-items: right;
-    justify-content: flex-end;
+
+header nav a {
+	color:black;
+	text-align: center;
+	text-decoration: none;
+	padding:10px;
+
+	/* Flexbox */
+	flex-grow:1;
 }
+
 
  ul li{
     display: inline-block;
