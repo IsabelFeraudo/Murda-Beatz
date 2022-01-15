@@ -1,25 +1,28 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
+body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
 .logo{
     width: 169px;
     height: 134px;
     left: 50px;
     top: 24px;
+    margin-right: 1200px;
+    margin-left: 50px;
+    margin-top: -100px;
     
    
 }
-.navbar{
-    width: 584px;
-    height: 22px;
-    left: 806px;
-    top: 47px;
-    justify-content: flex-end;
-}
 
-nav ul li{
+
+ul li{
+ 
     list-style: none;
     padding: 12px;
-    float:left;
+    float:right;
 
 font-family: Sen;
 font-style: normal;
@@ -28,8 +31,9 @@ font-size: 18px;
 line-height: 80px;
 text-align: right;
 text-transform: uppercase;
-
+vertical-align: middle;
 color: #000000;
+
 
 
 }
@@ -38,7 +42,7 @@ color: #000000;
   
     margin:0 ;
     background-image: url("assets/images/principal-page-pic.png");
-    background-position: 50%;
+    background-position: 0% 0%;
     background-size: cover;
     display: table;
 
@@ -46,22 +50,52 @@ width: 1440px;
 height: 810px;
 left: 0px;
 top: 0px;
+
 }
 
 .social-media{
-width: 25px;
-height: 267px;
-left: 1365px;
-top: 271px;
-padding: 20px;
+
 
 }
 
-.principal-page-text-1{
+.principal-page-text{
 width: 258px;
 height: 22px;
 left: 122px;
 top: 429px;
+margin-left: 150px;
 
 
+}
+
+.navbar-container{
+  
+align-items:"left";  
+justify-content: flex-end;
+    align-items: left;  
+}
+.navbar{
+    
+}
+
+.btn:hover{
+color:white;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 50px;
+}
+
+.container-header{
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+}
+
+ ul li{
+    display: inline-block;
+    
 }
