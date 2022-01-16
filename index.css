@@ -68,6 +68,7 @@ flex-direction: column;
 }
 
 .main-page-nav{
+	
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -77,6 +78,7 @@ flex-direction: column;
 	 margin-right: 1.5%;
 	 list-style: none;
 	 font-family: 'Sen';
+	 z-index: 100;
 	
 	 
 	 
@@ -91,12 +93,18 @@ flex-direction: column;
 	
 }
 
-#item li {
+
+
+.item li {
 	list-style: none;
 	padding-right: 50px;
 	
 }
 
+.item li a:hover{
+color: white;
+	
+}
 
 
 .main-page-text-1{
@@ -187,9 +195,70 @@ color: #000000;
 .button-container:hover{
 	background: white;
 	color: white;
+	cursor: pointer;
 }
 
+.mail-icon, .spotify-icon, .ig-icon, .tw-icon, .fb-icon, .apple-icon:hover{
+cursor: pointer;
 
+
+}
+#releases{
+	background-color: #121212;
+}
+
+.releases-title h1{
+	height: 74px;
+
+font-family: Sen;
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+line-height: 84px;
+display: flex;
+align-items: center;
+letter-spacing: 14px;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.0001);
+-webkit-text-stroke: 1px white;
+color: transparent; 
+
+margin-left: 3%;
+padding-top: 2%;
+
+}
+ .albums{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin:4%;
+ }
+
+ .albums .main-album, .other-albums{
+	 padding: 0.25rem;
+ }
+ .albums .other-albums .album-row-1{
+	padding-bottom: 0.25rem;
+
+}
+.albums .other-albums .album-row-2{
+	padding-top: 0.25rem;
+
+}
+
+.albums .other-albums .album-row-1 img{
+	padding-right: 0.25rem;
+	padding-left: 0.25rem;
+
+}
+
+.albums .other-albums .album-row-2 img{
+	padding-right: 0.25rem;
+	padding-left: 0.25rem;
+
+}
 
 @media screen and (max-width: 800px) {
 	.container {
@@ -219,9 +288,6 @@ color: #000000;
 	}
 }
 
-#releases{
-	background-color: grey;
-}
 
 @media screen and (max-width: 600px) {
 	aside {
@@ -247,8 +313,14 @@ color: #000000;
 		line-height : unset;
 	}
 
-	#social-media img:hover{
+	.social-media div img:hover{
 		color: white;
+		
+	}
+
+	.social-media div img{
+		cursor: pointer;
+		
 	}
 
 	@media screen and (max-width: 300px) {
