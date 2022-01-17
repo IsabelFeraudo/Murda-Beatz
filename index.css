@@ -470,11 +470,11 @@ color: transparent;
 @media screen and (max-width: 900px) {
 
 .back{
-	background-position: 50%;
+	background-position: 48%;
 }
 	
  .social-media{
-	 top:40%;
+	 top:25%;
  }
 
  .img-container img{
@@ -494,22 +494,47 @@ color: transparent;
 .main{
 	width: 35%;
 	flex-wrap: wrap;
-	margin-top: 10%;
+	top:50%;
+	padding-left:3.5%;
 }
 
 .main-page-text-1{
 	padding-bottom: 40%;
+	width: 100%;
+}
+
+.main-page-text-2{
+	
+	width: 50%;
+	flex-wrap: wrap;
+	height: auto;
+}
+
+.main-page-text-2 p{
+	
+	flex-wrap: wrap;
 }
 
 .button-container{
-	margin-top: 30%;
-	margin-left: 170%;
+	margin-top: 15%;
+	top: 10%;
+	flex-wrap: wrap;
+	left: 5%;
+}
+
+.main{
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 30%;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 .social-media{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	left: 0%;
 
 	display: flex;
 	flex-direction: row;
@@ -520,6 +545,8 @@ color: transparent;
 	 margin-right: 49%;
 	 list-style: none;
 	 margin-top: -10%;
+
+	 width: 30%;
 	
 }
 
@@ -553,7 +580,6 @@ color: transparent;
 		justify-content: center;
 		align-items: center;
 		padding-left: 25%;
-		padding-top: 10%;
 	}
 
 	.back{
@@ -591,7 +617,7 @@ color: transparent;
 
 .button-container{
 	margin-top: 10%;
-	margin-left: 10%;
+	margin-left: unset;
 	align-self: center;
 	justify-self: center;
 
