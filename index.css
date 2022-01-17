@@ -392,41 +392,349 @@ padding-top: 3%;
 	
 }
 
-@media screen and (max-width: 900px) {
-	.container {
-		flex-direction:column;
+@media screen and (max-width: 1280px) {
+
+	.main-page-nav{
+		padding-top: 5%;
+		padding-left: 2%;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+		align-self: center;
+	}
+	.main-page-nav ul{
+		flex-wrap: wrap;
+		justify-self: center;
+		align-self: center;
+		width: 100%;
+	}
+	.main-page-nav li {
+	
 	}
 
-	.social-media{
-		flex-direction: row;
+	.img-container{	
+		padding-top: 5%;
+		padding-bottom: 15%;
+		padding-right: 5%;
+		transform: scale(1.5);
 	}
+	.main{
+		top: 57%;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.main-page-text-1 {
+		font-size: 1rem;
+		width: 100%;
+	}
+	.main-page-text-2 {
+		font-size: 2rem;
+		line-height : unset;
+		flex-wrap: wrap;
+		align-items: center;
+		width: 70%;
+	}
+
+	.button-container{
+		margin-top: 10%;
+		align-self: center;
+		justify-self: center;	
+		
+}
+.releases-title h1{
+	font-size: xxx-large;
+	align-items: center;
+	justify-content: center;
+}
+
+.albums{
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#releases{
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.releases-btn{
+	flex-wrap: wrap;
+	justify-self: center;
+	align-self: center;
+	margin: auto;
+}
+
+.album-row-1 img, .album-row-2 img{
+	transform: scale(0.9);
+}
+.album-row-1{
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.social-media{
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin-left: 1.5%;
+	 margin-right: 1.5%;
+	 list-style: none;
+	 margin-top: 10%;
+	
+}
+
+
+.main-album:hover{
+transform: scale(0.9);
+}
+
+.album-row-1 img:hover{
+	transform: scale(0.9);
+}
+
 }
 
 
 @media screen and (max-width: 600px) {
 	aside {
 		flex-direction:row;
-		
+
+	}
+	.main-page-nav{
+		padding-top: 5%;
+		padding-left: 2%;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+		align-self: center;
+	}
+	.main-page-nav ul{
+		flex-wrap: wrap;
+		justify-self: center;
+		align-self: center;
+		width: 100%;
 	}
 
-
-}
-
-@media screen and (max-width: 450px) {
-	aside {
-		flex-direction:row;
-		
-		
+	.img-container{	
+		width: 100%;
+		padding-bottom: 15%;
 	}
+	.main{
+		top: 57%;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
 
+	}
 	.main-page-text-1 {
-		font-size: medium;
+		font-size: 1rem;
+		width: 100%;
 	}
 	.main-page-text-2 {
-		font-size: xx-large;
+		font-size: 2rem;
 		line-height : unset;
+		flex-wrap: wrap;
+		align-items: center;
+		width: 70%;
 	}
+
+	.button-container{
+		margin-top: 10%;
+		align-self: center;
+		justify-self: center;	
+		
 }
+.releases-title h1{
+	font-size: xxx-large;
+	align-items: center;
+	justify-content: center;
+}
+
+.albums{
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#releases{
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.releases-btn{
+	flex-wrap: wrap;
+	justify-self: center;
+	align-self: center;
+	margin: auto;
+}
+
+.album-row-1 img, .album-row-2 img{
+	transform: scale(0.9);
+}
+.album-row-1{
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.social-media{
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin-left: 1.5%;
+	 margin-right: 1.5%;
+	 list-style: none;
+	 margin-top: 10%;
+	
+}
+
+
+.main-album:hover{
+transform: scale(0.9);
+}
+
+.album-row-1 img:hover{
+	transform: scale(0.9);
+}
+
+}
+
+@media screen and (max-width: 400px) {
+	aside {
+		flex-direction:row;
+
+	}
+	.main-page-nav{
+		padding-top: 5%;
+		padding-left: 2%;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+		align-self: center;
+	}
+	.main-page-nav ul{
+		flex-wrap: wrap;
+		justify-self: center;
+		align-self: center;
+		width: 100%;
+	}
+
+	.img-container{	
+		width: 100%;
+		padding-bottom: 15%;
+	}
+	.main{
+		top: 57%;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.main-page-text-1 {
+		font-size: 1rem;
+		width: 100%;
+	}
+	.main-page-text-2 {
+		font-size: 2rem;
+		line-height : unset;
+		flex-wrap: wrap;
+		align-items: center;
+		width: 70%;
+	}
+
+	.button-container{
+		margin-top: 10%;
+		align-self: center;
+		justify-self: center;	
+		
+}
+.releases-title h1{
+	font-size: xxx-large;
+	align-items: center;
+	justify-content: center;
+}
+
+.albums{
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#releases{
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.releases-btn{
+	flex-wrap: wrap;
+	justify-self: center;
+	align-self: center;
+	margin: auto;
+}
+
+.album-row-1 img, .album-row-2 img{
+	transform: scale(0.9);
+}
+.album-row-1{
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.social-media{
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin-left: 1.5%;
+	 margin-right: 1.5%;
+	 list-style: none;
+	 margin-top: 10%;
+	
+}
+
+
+.main-album:hover{
+transform: scale(0.9);
+}
+
+.album-row-1 img:hover{
+	transform: scale(0.9);
+}
+
+}
+
+
+
+
+
 
 	@media screen and (max-width: 300px) {
 		aside {
@@ -446,4 +754,3 @@ padding-top: 3%;
 		}
 	
 	}
-}
