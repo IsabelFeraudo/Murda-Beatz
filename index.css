@@ -550,67 +550,6 @@ color: transparent;
 	
 }
 
-
-@media screen and (max-width: 450px) {
-
-	.main-page-nav{
-		padding-top: 40%;
-		padding-left: 2%;
-		flex-wrap: wrap;
-		width: 100%;
-		justify-content: center;
-		align-self: center;
-	}
-	.main-page-nav ul {
-		flex-wrap: wrap;
-		justify-self: center;
-		align-self: center;
-		width: 100%;
-		padding-top: 5%;
-	}
-	.main-page-nav ul li{
-
-		
-		padding-bottom: 10%;
-	}
-
-	.img-container{	
-		width: 100%;
-		padding-bottom: 15%;
-		justify-content: center;
-		align-items: center;
-		padding-left: 25%;
-	}
-
-	.back{
-		background-position: 0 0;
-	}
-
-
-	.main{
-		top: 45%;
-		width: 100%;
-		justify-content: center;
-		align-items: center;
-
-	}
-	.main-page-text-1 {
-		font-size: 1rem;
-		width: 100%;
-		padding-top: 30%;
-		padding-bottom: 5%;
-	}
-	.main-page-text-2 {
-		font-size: 2rem;
-		line-height : unset;
-		flex-wrap: wrap;
-		align-items: center;
-		width: 100%;
-	}
-
-	}
-
-
 .album-row-1 img, .album-row-2 img{
 	transform: scale(0.9);
 }
@@ -619,11 +558,8 @@ color: transparent;
 	margin-top: 10%;
 	margin-left: unset;
 	align-self: center;
-	justify-self: center;
-
-	
+	justify-self: center;	
 }
-
 
 .social-media{
 	flex-wrap: wrap;
@@ -636,10 +572,9 @@ color: transparent;
 	align-items: center;
 	list-style: none;
 	margin-left: 1.5%;
-	 margin-right: 1.5%;
-	 list-style: none;
-	 margin-top: 2%;
-	
+	margin-right: 1.5%;
+	list-style: none;
+	margin-top: 2%;
 }
 
 
@@ -669,24 +604,26 @@ transform: scale(0.9);
 	width: 40%;
 	flex-wrap: wrap;
 	padding-bottom: 3%;
-	
 }
+
 .main{
 	top: 60%;
 }
+
 .main-page-text-1 {
 	font-size: medium;
 	line-height: 20px;
 	padding-bottom: 3%;
 }
+
 .main-page-text-2 {
 	font-size: xx-large;
 	line-height: 30px;
 }
+
 .button-container{
 	padding-left: 5%;
 }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -697,6 +634,31 @@ transform: scale(0.9);
 	}
 }
 
+@media screen and (max-width: 450px) {
+
+	.img-container{
+		padding-bottom: 5%;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.main-page-nav{
+		justify-content: center;
+		align-items: center;
+	}
+
+	.main {
+		top: 35rem;
+		
+	}
+.main-page-text-2{
+	padding-bottom: 2rem;
+}
+
+.social-media{
+	top:15rem;
+}
+	}
 
 
 @media screen and (max-width: 400px) {
