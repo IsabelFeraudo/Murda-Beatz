@@ -78,12 +78,9 @@ flex-direction: column;
 	 margin-right: 1.5%;
 	 list-style: none;
 	 font-family: 'Sen';
-	
-	
-	 
-	 
-	
+
 }
+
 
 .main-page-nav ul{
 	display: flex;
@@ -93,6 +90,13 @@ flex-direction: column;
 	
 }
 
+.item li img{
+	width: 2rem;
+}
+
+.item li a:hover{
+	color: white;
+}
 
 
 .item li {
@@ -149,8 +153,6 @@ align-items: center;
 align-self: center;
 text-transform: uppercase;
 
-
-
 color: #000000;
 }
 
@@ -200,11 +202,12 @@ color: #000000;
 
 
 
-.mail-icon, .spotify-icon, .ig-icon, .tw-icon, .fb-icon, .apple-icon:hover{
+.mail-icon:hover, .spotify-icon:hover, .ig-icon:hover, .tw-icon:hover, .fb-icon:hover, .apple-icon:hover{
 cursor: pointer;
-
-
+transform: scale(1.2);
 }
+
+
 #releases{
 	background-color: #121212;
 }
@@ -389,31 +392,13 @@ padding-top: 3%;
 	
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 	.container {
 		flex-direction:column;
 	}
 
-	header {
-		flex-direction:column;
-		padding:0;
-	}
-
-	header .logo {
-		margin:20px 0;
-	}
-
-	header nav {
-		width: 100%;
-	}
-
-	aside {
-		flex-direction:row;
-		flex:0;
-	}
-
-	aside .widget {
-		flex-grow:1;
+	.social-media{
+		flex-direction: row;
 	}
 }
 
@@ -441,16 +426,7 @@ padding-top: 3%;
 		font-size: xx-large;
 		line-height : unset;
 	}
-
-	.social-media div img:hover{
-		color: white;
-		
-	}
-
-	.social-media div img{
-		cursor: pointer;
-		
-	}
+}
 
 	@media screen and (max-width: 300px) {
 		aside {
